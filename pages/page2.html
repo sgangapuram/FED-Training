@@ -5,10 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Static Template</title>
+    <link rel="stylesheet" href="../styles.css"><link>
   </head>
   <body>
     <h1>Hola2!! This is Page2</h1>
     <p><a href="../index.html">Lets go back to home</a></p>
     <p><a href="page1.html">Do you want to goto page1 from here??</a></p>
+    <p><a href="semantics.html">Lets go to semantics??</a></p>
+
+    <table border="1" cellspacing="15" cellpadding="5" bgcolor="#00FF00" bordercolor="red">
+    <tr>
+    <th bgcolor="grey">theader1</th>
+    <th bgcolor="grey">theader2</th>
+    <th bgcolor="grey">theader3</th>
+    </tr>
+    <tr>
+    <td colspan="2" align="center">row1 col1  row1 col2</td>
+    <!-- <td></td> -->
+    <td>row1 col3</td>
+    </tr>
+      <tr>
+    <td>row2col1</td>
+    <td rowspan="2"> row2col1 <br> row2col2</td>
+    <td>row2col3</td>
+    </tr>
+      <tr>
+    <td>row3col1</td>
+    <td>row3col3</td>
+    </tr>
+    <tr>
+    <td>row4col1</td>
+    <td>row4col2</td>
+    <td>row4col3</td>
+    </tr>
+      <tr>
+      <tfoot>
+      <tr><td  colspan="3" align="center">This is table footer</tr></td>
+      </tfoot>
+    </table>
+      <p> test </p>
+      <footer>
+    <p>&copy;copyright information</p>
+    <p>last updated on Monday, Aug 24, 2020</p>
+    </footer>
   </body>
 </html>
